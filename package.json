@@ -1,0 +1,17 @@
+{
+	"name": "libsodium-test",
+	"version": "1.0.0",
+	"description": "Testing Libsodium encryption library.",
+	"main": "tests/test1/node/encrypt_decrypt.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"libsodium"
+	],
+	"author": "Owan Hunte",
+	"license": "ISC",
+	"dependencies": {
+		"sodium": "^2.0.3"
+	}
+}
