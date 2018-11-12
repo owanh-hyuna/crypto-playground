@@ -16,10 +16,11 @@ My playground repo for writing sample code that uses the Node.js and PHP ports o
 
 ## Running the Code Samples (Node.js versions)
 
--   Clone the repo.
--   Run **npm install** to install the code dependencies.
--   Run each sample file with the node command, e.g.
+- Clone the repo.
+- Run **npm install** to install the code dependencies.
+- Run each sample file with the node command, e.g.
 
-    ```sh
-    $ node code/sample1/node/encrypt_decrypt.js
-    ```
+```sh
+$ node code/sample1/node/encrypt_decrypt.js
+```
+
