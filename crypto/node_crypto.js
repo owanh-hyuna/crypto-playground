@@ -1,10 +1,11 @@
 const crypto = require('crypto');
 const key = 'MySecretKey12345'; // secret key known on php end
 const iv = '1234567890123456'; // should also be kept secret (but known on php end) for strong security
+const algorithm = 'aes-128-cbc'; // the cipher algorithm to use
 
 // Create Cipher and Decipher instances.
-const cipher = crypto.createCipheriv('aes-128-cbc', key, iv);
-const decipher = crypto.createDecipheriv('aes-128-cbc', key, iv);
+const cipher = crypto.createCipheriv(algorithm, key, iv);
+const decipher = crypto.createDecipheriv(algorithm, key, iv);
 
 // Encrypt a test message.
 const text = 'This is a simple message, courtesy of José!';
