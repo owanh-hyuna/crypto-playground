@@ -16,16 +16,20 @@ My Node.js/PHP playground repo for code samples that demonstrate use of differen
 
 **Purpose**: Encrypt and subsequently decrypt a message using a secret-key authenticated encryption scheme using nonces. With this scheme only the nonce should be shared.
 
-## Node.js Crypto
+## Node.js Crypto w/ Compatible PHP encryption/decryption
 
-Demonstrates a simple encryption/decryption example using Node.js's crypto module.
+Demonstrates a simple encryption/decryption example using Node.js's crypto module with a corresponding implementation in PHP.
 
-## Running the Code Samples (Node.js versions)
+## Running the Code Samples
 
 -   Clone the repo.
--   Run **npm install** to install the code dependencies.
--   Run each sample file with the node command, e.g.
+-   Run **npm install** to install the code dependencies for Node.js.
+-   Run each Node sample file with the node command, and the PHP sample file with the php command, e.g.
 
 ```sh
 $ node libsodium/sample1/node/encrypt_decrypt.js
+```
+
+```sh
+$ php crypto/php_crypto.php
 ```
